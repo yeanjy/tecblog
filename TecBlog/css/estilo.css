@@ -17,6 +17,12 @@ body{
   text-align: center;
 }
 
+#area-lateral2{
+  background: orange;
+  width: 130px;
+  float: left;
+}
+
 #area-logo, #area-menu {
   padding: 10px;
 }
