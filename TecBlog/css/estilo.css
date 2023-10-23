@@ -12,14 +12,14 @@ body{
 
 /*Layout */
 #area-cabecalho {
-  background-color: #f7b600;
+  background-color: #4f8cff;
   padding: 15px;
   text-align: center;
 }
 
 #area-lateral2{
   position: fixed;
-  background: orange;
+  background: rgb(101, 158, 243);
   width: 130px;
   height: 1200px;
   float: left;
@@ -78,8 +78,8 @@ a:link, a:visited{
 }
 
 a:hover{
-  color: #f7b600;
-  background: #FFF;
+  color: #4f8cff;
+  background: #bbe0ff;
 
 }
 
