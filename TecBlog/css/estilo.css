@@ -18,8 +18,10 @@ body{
 }
 
 #area-lateral2{
+  position: fixed;
   background: orange;
   width: 130px;
+  height: 1200px;
   float: left;
 }
 
