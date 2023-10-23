@@ -35,11 +35,11 @@ body{
 }
 
 #area-postagens, #area-lateral{
-  background: orange;
+  background: #4f8cff;
 }
 
 #area-postagens{
-  width: 660px;
+  width: 100%;
   float: left;
 }
 
@@ -91,4 +91,12 @@ h1{
 
 .branco {
   color: white;
+}
+
+
+/*area nova AN*/
+
+#an {
+  margin-left: 6.9%;
+  
 }
