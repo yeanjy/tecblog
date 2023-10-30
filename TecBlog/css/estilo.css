@@ -151,8 +151,12 @@ img:hover {
 
 /*Formatação em geral */
 h1 {
-  color: #2e2e2e;
+  color: #141414;
   font-size: 2.5em;
+}
+
+p{
+  color: #1f1e1e;
 }
 
 .branco {
@@ -173,7 +177,16 @@ h1 {
   padding: 20px;
   font-size: 20px;
 }
-
+.text2-1 {
+  padding: 20px;
+  font-size: 30px;
+  margin-left: 20px;
+}
+.text2-2 {
+  padding: 20px;
+  font-size: 20px;
+  margin-left: 20px;
+}
 section {
   padding-top: 20px;
   padding-left: 200px;
