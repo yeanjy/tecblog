@@ -1,10 +1,10 @@
 /*Limpar fomrataçõs padrão */
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   font-size: 1em;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   background: #e6e6e6;
@@ -17,7 +17,7 @@ body{
   text-align: center;
 }
 
-#area-lateral2{
+#area-lateral2 {
   position: fixed;
   background: rgb(0, 0, 0);
   border: 6px solid #300346;
@@ -26,40 +26,45 @@ body{
   float: left;
 }
 
-#area-logo, #area-menu {
+#area-logo,
+#area-menu {
   padding: 10px;
 }
 
-#area-principal{
+#area-principal {
   border: 9px solid #300346;
   width: 80%;
-  margin: 0 auto; /* auto paramargm autoática */
+  margin: 0 auto;
+  /* auto paramargm autoática */
 }
 
-#area-postagens, #area-lateral{
+#area-postagens,
+#area-lateral {
   background: #000000;
 }
 
-#area-postagens{
+#area-postagens {
   width: 100%;
-  float: left; 
+  float: left;
 }
 
-#area-lateral{
+#area-lateral {
   width: 240px;
   float: right;
 }
-.divmenu{
+
+.divmenu {
   background-color: rgb(0, 0, 0);
   padding-bottom: 30px;
   padding-top: 30px;
 }
-.divmenu2{
+
+.divmenu2 {
   background-color: rgb(0, 0, 0);
-  
+
 }
 
-.postagem{
+.postagem {
   padding: 20px;
   margin-bottom: 20px;
   background: white;
@@ -71,7 +76,7 @@ body{
   width: 100%;
 }
 
-.postagem2{
+.postagem2 {
   padding: 20px;
   margin-bottom: 20px;
   background: white;
@@ -100,22 +105,24 @@ body{
 
 }
 
-#leia{
+#leia {
   color: orange;
   padding: 0px;
-    }
+}
 
 
 /*Formatação do menu */
-a{
+a {
   text-decoration: none;
 }
-a:link, a:visited{
+
+a:link,
+a:visited {
   color: #ffffff;
   padding: 8px 12px;
 }
 
-a[class="evitar-hover-border-em-a-para-img"]:hover{
+a[class="evitar-hover-border-em-a-para-img"]:hover {
   color: rgb(255, 255, 255);
   border: 3px solid purple;
   border-radius: 14px;
@@ -143,24 +150,42 @@ img:hover {
 }
 
 /*Formatação em geral */
-h1{
-  color: #4e4e4e;
+h1 {
+  color: #2e2e2e;
   font-size: 2.5em;
-  }
+}
 
 .branco {
   color: white;
 }
+
 .roxo {
   color: purple;
 }
 
+.text {
+  text-align: center;
+  padding: 20px;
+}
+
+.text2 {
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+section {
+  padding-top: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 20px;
+}
 
 /*area nova AN*/
 
 #an {
   margin-left: 6.9%;
-  
+
 }
 
 /*.menucor div:hover{
