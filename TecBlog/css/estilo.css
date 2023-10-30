@@ -12,17 +12,17 @@ body{
 
 /*Layout */
 #area-cabecalho {
-  background-color: #4f8cff;
+  background-color: #000000;
   padding: 15px;
   text-align: center;
 }
 
 #area-lateral2{
   position: fixed;
-  background: rgb(101, 158, 243);
-  border: 6px solid #4f8cff;
+  background: rgb(0, 0, 0);
+  border: 6px solid #300346;
   width: 130px;
-  height: 1200px;
+  height: 98.8%;
   float: left;
 }
 
@@ -36,7 +36,7 @@ body{
 }
 
 #area-postagens, #area-lateral{
-  background: #4f8cff;
+  background: #000000;
 }
 
 #area-postagens{
@@ -49,7 +49,7 @@ body{
   float: right;
 }
 .divmenu{
-  background-color: rgb(101, 158, 243);
+  background-color: rgb(0, 0, 0);
   padding-bottom: 30px;
   padding-top: 30px;
 }
@@ -65,7 +65,8 @@ body{
   padding: 20px;
   margin-bottom: 20px;
   background: white;
-  border-right: 6px solid #4f8cff;
+  border-right: 8px solid #000000;
+  border-left: 21.7px solid #000000;
 
 }
 
@@ -81,7 +82,8 @@ body{
   text-align: center;
   padding: 15px;
   background: #CCC;
-  border-right: 6px solid #4f8cff;
+  border-right: 8px solid #000000;
+  border-left: 25px solid #000000;
 
 }
 
@@ -100,15 +102,16 @@ a:link, a:visited{
   padding: 8px 12px;
 }
 
-a:hover{
-  color: #4f8cff;
+a[class="evitar-hover-border-em-a-para-img"]:hover{
+  color: rgb(255, 255, 255);
+  border: 3px solid purple;
   border-radius: 14px;
-  background: #ffffff;
+  background: #2a0130;
 
 }
 
 .imagem {
-  border: 3px solid #4f8cff;
+  border: 3px solid purple;
   border-radius: 4px;
   padding: 4px;
   max-width: 100%;
@@ -123,7 +126,7 @@ img {
 }
 
 img:hover {
-  box-shadow: 0px 0px 9px 5px rgba(0, 140, 186, 0.5);
+  box-shadow: 0px 0px 9px 5px palevioletred;
 }
 
 /*Formatação em geral */
@@ -134,6 +137,9 @@ h1{
 
 .branco {
   color: white;
+}
+.roxo {
+  color: purple;
 }
 
 
@@ -152,3 +158,7 @@ h1{
 .evitarhover-a {
   color: #ffffff;
 }*/
+
+.evitar-hover-border-em-a-para-img {
+  color: white;
+}
