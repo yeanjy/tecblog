@@ -106,7 +106,7 @@ body {
 }
 
 #leia {
-  color: orange;
+  color: purple;
   padding: 0px;
 }
 
@@ -212,4 +212,13 @@ section {
 
 .evitar-hover-border-em-a-para-img {
   color: white;
+}
+
+.questionario-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-left: 32pc;
+  max-width: 600px;
 }
