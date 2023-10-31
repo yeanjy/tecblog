@@ -26,16 +26,6 @@ body {
   float: left;
 }
 
-#area-lateral21 {
-
-  position: fixed;
-  background: rgb(0, 0, 0);
-  border-right: 12px solid #000000;
-  width: 130px;
-  height: 98.8%;
-  float: left;
-
-}
 
 #area-logo,
 #area-menu {
@@ -56,7 +46,7 @@ body {
 
 #area-postagens {
   width: 100%;
-  float: left;
+  float: right;
 }
 
 #area-lateral {
@@ -88,11 +78,13 @@ body {
 }
 
 .postagem2 {
+  width: 96%;
+  float: right;
   padding: 20px;
   margin-bottom: 20px;
   background: white;
   border-right: 8px solid #000000;
-  border-left: 21.7px solid #000000;
+  border-left: 8px solid #000000;
 
 }
 
