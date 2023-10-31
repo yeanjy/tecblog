@@ -20,7 +20,7 @@ body {
 #area-lateral2 {
   position: fixed;
   background: rgb(0, 0, 0);
-  border: 6px solid #300346;
+  border: 6px solid #41055f;
   width: 130px;
   height: 98.8%;
   float: left;
@@ -33,7 +33,7 @@ body {
 }
 
 #area-principal {
-  border: 9px solid #300346;
+  border: 9px solid #41055f;
   width: 80%;
   margin: 0 auto;
   /* auto paramargm autoática */
