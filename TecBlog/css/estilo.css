@@ -26,6 +26,17 @@ body {
   float: left;
 }
 
+#area-lateral21 {
+
+  position: fixed;
+  background: rgb(0, 0, 0);
+  border-right: 12px solid #000000;
+  width: 130px;
+  height: 98.8%;
+  float: left;
+
+}
+
 #area-logo,
 #area-menu {
   padding: 10px;
@@ -137,6 +148,7 @@ a[class="evitar-hover-border-em-a-para-img"]:hover {
   max-width: 100%;
   height: auto;
 }
+
 .imagem2 {
   border: 3px solid purple;
   border-radius: 4px;
@@ -162,7 +174,7 @@ h1 {
   font-size: 2.5em;
 }
 
-p{
+p {
   color: #1f1e1e;
 }
 
@@ -178,26 +190,31 @@ p{
   text-align: center;
   padding: 20px;
 }
+
 .text01 {
   text-align: center;
   padding: 20px;
   font-size: 25px;
 }
+
 .text2 {
   text-align: center;
   padding: 20px;
   font-size: 20px;
 }
+
 .text2-1 {
   padding: 20px;
   font-size: 30px;
   margin-left: 20px;
 }
+
 .text2-2 {
   padding: 20px;
   font-size: 20px;
   margin-left: 20px;
 }
+
 section {
   padding-top: 20px;
   padding-left: 200px;
@@ -240,7 +257,7 @@ section {
   padding: 20px;
 }
 
-.lado-a-lado{
+.lado-a-lado {
   display: inline-block;
 
 }
