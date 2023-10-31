@@ -45,7 +45,7 @@ body {
 }
 
 #area-postagens {
-  width: 99.5%;
+  width: 100%;
   float: right;
   
 }
@@ -83,7 +83,7 @@ body {
   margin-bottom: 20px;
   background: white;
   border-right: 15px solid #000000;
-  border-left: 30px solid #000000;
+  border-left: 60px solid #000000;
 
 }
 
