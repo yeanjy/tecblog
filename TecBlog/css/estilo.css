@@ -88,20 +88,22 @@ body {
 }
 
 #rodape {
+  color: white;
   clear: both;
   text-align: center;
   padding: 15px;
-  background: #CCC;
+  background: #2a0130;
   border-right: 8px solid #000000;
   border-left: 8px solid #000000;
   border-bottom: 8px solid #000000;
 }
 
 #rodape2 {
+  color: white;
   clear: both;
   text-align: center;
   padding: 15px;
-  background: #CCC;
+  background: #2a0130;
   border-right: 8px solid #000000;
   border-left: 25px solid #000000;
 
