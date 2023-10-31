@@ -45,8 +45,9 @@ body {
 }
 
 #area-postagens {
-  width: 100%;
+  width: 99.5%;
   float: right;
+  
 }
 
 #area-lateral {
@@ -78,13 +79,11 @@ body {
 }
 
 .postagem2 {
-  width: 96%;
-  float: right;
   padding: 20px;
   margin-bottom: 20px;
   background: white;
   border-right: 8px solid #000000;
-  border-left: 8px solid #000000;
+  border-left: 21.7px solid #000000;
 
 }
 
@@ -217,7 +216,7 @@ section {
 /*area nova AN*/
 
 #an {
-  margin-left: 6.9%;
+  margin-left: 7%;
 
 }
 
